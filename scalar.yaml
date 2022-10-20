@@ -1,0 +1,25 @@
+# string
+name: alex chen
+language: "Java"
+area: 'backend'
+
+# num
+major-version: 2
+minor-version: 0.5
+hex: 0x12d6
+octal: 02443
+positive-inf: .inf
+negative-inf: -.Inf
+invalidNum: .NAN
+
+# bool
+good-day: true
+good-person: TRUE
+good-food: Yes
+bad-day: false
+bad-person: No
+
+# null
+null_value_0: null
+null_value_1: ~
+null_value_2:
