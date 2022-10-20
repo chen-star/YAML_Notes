@@ -1,0 +1,23 @@
+# string
+name: !!str alex chen
+language: !!str "Java"
+area: !!str 'backend'
+
+# num
+major-version: !!int 2
+minor-version: !!float 0.5
+
+# bool
+good-day: !!bool true
+good-person: !!bool TRUE
+good-food: !!bool Yes
+bad-day: !!bool false
+bad-person: !!bool No
+
+# null
+null_value_0: !!null null
+null_value_1: !!null ~
+null_value_2: !null
+
+# timestamp
+random-date: !!timestamp 2022-01-02 2:58:43.10
