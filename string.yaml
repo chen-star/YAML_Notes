@@ -1,0 +1,43 @@
+organization: alex-bank
+
+# keep the newline in the string
+# only keep 1 end new ine
+# "alex-bank\nis an\napplication.\n"
+about: |
+  alex-bank
+  is an
+  application.
+# remove the end newline
+# "alex-bank\nis an\napplication."
+about_1: |-
+  alex-bank
+  is an
+  application.
+# keep all end newline
+# "alex-bank\nis an\napplication.\n\n\n"
+about_2: |+
+  alex-bank
+  is an
+  application.
+  
+
+# replace the newline with space in the string
+# only keep 1 end newline
+# "alex-bank is established in 2020.\n"
+history: >
+  alex-bank is
+  established
+  in 2020.
+# remove the end newline
+# "alex-bank is established in 2020."
+history_1: >-
+  alex-bank is
+  established
+  in 2020.
+# keep all end newline
+# "alex-bank is established in 2020.\n\n\n"
+history_2: >+
+  alex-bank is
+  established
+  in 2020.
+
