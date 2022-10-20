@@ -1,0 +1,13 @@
+---
+app:
+  name: alex-app
+  env: dev
+  db: mysql
+...
+
+---
+app:
+  name: alex-app
+  env: prod
+  db: mongo-db
+...
