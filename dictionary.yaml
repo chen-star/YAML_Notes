@@ -7,3 +7,7 @@ env:
   - prod:
       cluster-size: 12
       status: blue
+      users:
+        - Alex:
+            name: Alex Chen
+            age: 21
