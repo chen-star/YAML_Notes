@@ -1,0 +1,23 @@
+definitions:
+  days:
+    - weekday: &working
+        wakeup: 7:00 AM
+        activities:
+          - work
+          - study
+        sleep: 11:30 PM
+    - weekend: &break
+        wakeup: 10:00 AM
+        activities:
+          - study
+          - trip
+        sleep: 1:00 AM
+
+schedules:
+  - monday: *working
+  - tuesday: *working
+  - wednesday: *working
+  - thursday: *working
+  - friday: *working
+  - saturday: *break
+  - sunday: *break
