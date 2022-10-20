@@ -15,9 +15,8 @@ definitions:
 
 schedules:
   - monday: *working
-  - tuesday: *working
-  - wednesday: *working
-  - thursday: *working
-  - friday: *working
-  - saturday: *break
+  - friday:
+      <<: *working
+      sleep: 11:50 PM
+      play-hard: true
   - sunday: *break
