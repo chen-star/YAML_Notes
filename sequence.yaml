@@ -1,0 +1,24 @@
+# Block style
+# you can either put space before -, or not put.
+applications:
+- Cards
+- Loans
+- Accounts
+departments:
+  - Marketing
+  - Insurance
+  - Security
+
+# Inline flow style
+# you can either put in one line, or put in next line with space before.
+locations: [Palo Alto, "Sunnyvale", 'Cupertino']
+cards:
+  [Credit, "Debit"]
+
+
+# Nested sequence
+products:
+  - Accounts:
+      - Saving
+      - Checking
+  - Loans: ["Home", Car, 'Personal']
