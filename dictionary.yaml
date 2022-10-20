@@ -1,0 +1,9 @@
+env:
+  - dev:
+      cluster-size: 2
+  - staging:
+      cluster-size: 5
+      status: green
+  - prod:
+      cluster-size: 12
+      status: blue
